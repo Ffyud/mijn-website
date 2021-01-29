@@ -1,2 +1,2 @@
-## Website van David Duyff
-Gebruiken om projecten en shit te laten zien.
+## mijn-website
+'Tis maar een HTML pagina gestyled als DOS interface.
