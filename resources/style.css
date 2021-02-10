@@ -11,18 +11,24 @@
 body, html {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px; 
-    height: 100%;
-    font-family: vga;
-    cursor: default;
-    background: var(--floral-white);
     color: var(--blue);
+    font-size: 25px;
 }
 
-@font-face {
-    font-family: vga;
-    src: url(vga.ttf);
+.container {
+    padding: 10px;
 }
-
+.container ul { 
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+}
+.container ul li {
+    padding: 0px 5px 5px 0px;
+}
+a { text-decoration: none;}
+i { vertical-align: middle;}
+.monkey { font-size: 2em;}
 .wrap {
     max-width: 700px;
     margin: 0px auto;
