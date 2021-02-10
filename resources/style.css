@@ -1,14 +1,30 @@
+:root {
+    --green: #009C56;
+    --dark-green: #4F6C51;
+    --gold: #F8C11E;
+    --floral-white: #FDFBEF;
+    --red-alert: #EA272F;
+    --blue:#103352;  
+    --radius: 10px;
+}
+
 body, html {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px; 
     height: 100%;
     font-family: vga;
     cursor: default;
+    background: var(--floral-white);
+    color: var(--blue);
 }
+
+@font-face {
+    font-family: vga;
+    src: url(vga.ttf);
+}
+
 .wrap {
     max-width: 700px;
     margin: 0px auto;
-    color: #FFF;
     position: relative;
-    overflow: hidden;
 }
