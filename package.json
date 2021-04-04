@@ -1,0 +1,25 @@
+{
+  "name": "mijn-website",
+  "version": "1.0.0",
+  "description": "Yes!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ffyud/mijn-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ffyud/mijn-website/issues"
+  },
+  "homepage": "https://github.com/Ffyud/mijn-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
